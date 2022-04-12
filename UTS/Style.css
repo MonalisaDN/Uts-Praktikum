@@ -21,26 +21,15 @@ body{
     font-size: 20px;
     text-align: justify;
 }
-.cursor{
+#cursor{
     position: fixed;
     background-color: black;
     width: 100px;
     height: 100px;
-    border: 1px solid black;
+    border: thick solid red;
     left: 0;
     top: 0;
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: .1%;
-}
-.cursor2{
-    position: fixed;
-    width: 100px;
-    height: 100px;
-    border: 3px solid black;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: .15%;
 }
